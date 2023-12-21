@@ -1,0 +1,6 @@
+﻿@page "/managerdetail"
+@page "/managerdetail/{ManagerId:int}"
+@using BlazorServer.TemplatePatternExample.Pages._Components.Managers;
+@using TemplatePatternExample.Domain.Models;
+
+<ManagerForm T="Manager" CancelRoute="managers" Title="Manager" EntityId="ManagerId"></ManagerForm>

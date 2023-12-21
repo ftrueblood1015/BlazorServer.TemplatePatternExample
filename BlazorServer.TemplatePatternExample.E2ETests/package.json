@@ -1,0 +1,23 @@
+{
+  "name": "blazorserver.templatepatternexample.e2etests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "AllTests": "testcafe chrome ./Tests/** --reporter spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "testcafe": "^3.4.0",
+    "typescript": "^5.3.3"
+  }
+}

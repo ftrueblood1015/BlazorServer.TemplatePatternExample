@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.126-alpha">
+  <ItemGroup>
+    <Folder Include="PageObjects\Employees\" />
+    <Folder Include="PageObjects\Managers\" />
+    <Folder Include="TestHelpers\" />
+    <Folder Include="Tests\Employees\" />
+    <Folder Include="Tests\Managers\" />
+  </ItemGroup>
+</Project>

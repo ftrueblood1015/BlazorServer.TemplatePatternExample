@@ -1,0 +1,6 @@
+﻿@page "/employeedetail"
+@page "/employeedetail/{EmployeeId:int}"
+@using BlazorServer.TemplatePatternExample.Pages._Components.Employees;
+@using TemplatePatternExample.Domain.Models;
+
+<EmployeeForm T="Employee" CancelRoute="employees" Title="Employee" EntityId="EmployeeId"></EmployeeForm>
